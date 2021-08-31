@@ -42,7 +42,7 @@ for j in range(0,len(nums)):
 print(oddNum)
 
 # Daxilində 3 rəqəmi olan neçə ədəd olduğunu ekrana çap edən metod yazın
-print ("Daxilində 3 rəqəmi olan neçə ədəd olduğunu ekrana çap edən metod yazın :")
+print ("Daxilində 3 rəqəmi olan neçə ədəd olduğunu ekrana çap edən metod yazın : ")
 say = 0
 for s in range(0,len(nums)):
     if "3" in str(nums[s]):
