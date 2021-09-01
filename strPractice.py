@@ -6,7 +6,7 @@ print(len(text))
 
 # str daxilində neçə hərf olduğunu ekrana yazdırın
 print("str daxilində neçə hərf olduğunu ekrana yazdırın : ")
-print(len(text) - text.count(" "))
+print(len(text) - text.count(" ") - text.count(","))
 
 # str daxilindəki sözləri ayrı bir massiv içərisində toplayın
 print("str daxilindəki sözləri ayrı bir massiv içərisində toplayın : ")
@@ -25,7 +25,7 @@ for x in text.lower():
         samit +=1
 
 print(f"""Saitlər : {sait} 
-Samitlər : {samit}""")
+Samitlər : {samit - text.count(" ") - text.count(",")}""")
 
 # str daxilində son iki sözü silən metod yazın
 print("str daxilində son iki sözü silən metod yazın : ")
